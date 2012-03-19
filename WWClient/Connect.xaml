@@ -1,0 +1,13 @@
+﻿<Window x:Class="WW.Connect"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Connect Server" Height="200" Width="300">
+    <Grid>
+        <Label Name="HostLabel" Height="26" Margin="4,12,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="36.567">Host</Label>
+        <Label Name="PortLabel" Height="26" Margin="0,42,88,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="Auto">Port</Label>
+        <ComboBox Name="HostComboBox" Height="24" Margin="47,12,12,0" VerticalAlignment="Top" IsEditable="True" MaxDropDownHeight="800" />
+        <TextBox Name="PortNoBox" Width="70" Height="24" Margin="0,42,12,0" HorizontalAlignment="Right" VerticalAlignment="Top" MaxLines="1" MaxLength="5" />
+        <Button Name="ConnectButton" Height="24" Margin="120,0,0,12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="70">Connect</Button>
+        <Button Name="CancelButton" Width="70" Height="24" Margin="0,0,12,12" HorizontalAlignment="Right" VerticalAlignment="Bottom">Cancel</Button>
+    </Grid>
+</Window>
